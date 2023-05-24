@@ -1,0 +1,14 @@
+// Fix for Mantine Slider label rendering issue in webkit
+.mantine-Slider-label {
+    transform: translate3d(0, 0, 0);
+}
+
+.mantine-ActionIcon-root {
+    &:focus {
+        outline: 2px solid var(--colors-blue);
+    }
+}
+
+.mantine-CloseButton-root {
+    color: var(--colors-gray);
+}

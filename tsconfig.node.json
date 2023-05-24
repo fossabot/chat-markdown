@@ -1,0 +1,14 @@
+{
+    "extends": "eslint-config-with-tsconfig/tsconfig.base.json",
+    "compilerOptions": {
+        "composite": true,
+        "module": "ESNext",
+        "target": "ES2022",
+        "lib": ["ESNext"],
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "types": ["@types/node"]
+    },
+    "include": ["scripts/**/*.ts", "svelte.config.js", "vite.config.ts"]
+}
