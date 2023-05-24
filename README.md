@@ -1,4 +1,6 @@
 # ChatMarkdown
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRel1cx%2Fchat-markdown.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FRel1cx%2Fchat-markdown?ref=badge_shield)
+
 
 A ChatGPT client built with remark and CodeMirror 6, optimized for markdown.
 
@@ -39,3 +41,7 @@ pnpm dev
 ```bash
 pnpm build
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRel1cx%2Fchat-markdown.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FRel1cx%2Fchat-markdown?ref=badge_large)
