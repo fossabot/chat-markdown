@@ -24,9 +24,9 @@ export const container = styleVariants({
 })
 
 export const content = styleVariants({
-    system: [baseContent, { background: "#2e3440", color: "#f1f2f2" }],
-    user: [baseContent, { background: "#2563eb", color: "#f1f2f2" }],
-    assistant: [baseContent, { background: "#f1f2f2", color: "#1a202c" }],
+    system: [baseContent, { background: vars.colors.secondary, color: vars.colors.white }],
+    user: [baseContent, { background: vars.colors.primary, color: vars.colors.white }],
+    assistant: [baseContent, { background: vars.colors.background, color: vars.colors.text }],
 })
 
 globalStyle(`${baseContent} pre`, {

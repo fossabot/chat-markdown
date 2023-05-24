@@ -12,7 +12,7 @@ export const vars = createGlobalTheme(":root", {
         white: "#fff",
         black: "#000",
         primary: "#2563eb",
-        secondary: "#2b6cb0",
+        secondary: "#2e3440",
         background: "#f1f2f2",
         hover: "rgba(0, 0, 0, 0.05)",
         overlay: "rgba(0, 0, 0, 0.15)",
